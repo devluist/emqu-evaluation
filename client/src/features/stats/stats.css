@@ -1,0 +1,59 @@
+
+.container {
+    height: 100% !important;
+}
+
+.stats-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card1, .card2 {
+    font-size: 28px;
+    text-align: right;
+    width: fit-content;
+    padding: 15px;
+    margin: 15px;
+    border-radius: 5px;
+}
+
+.card1 span, .card2 span {
+    font-size: 12px;
+    display: block;
+    text-align: left !important;
+}
+
+.card1 {
+    background-color: #ffb87f;
+    border: 1px solid #ded7d7;
+}
+
+.card2 {
+    background-color: #61add6;
+    border: 1px solid #ded7d7;
+    color: white;
+}
+
+.numbers {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.add-survey {
+    background-color: greenyellow;
+    font-size: 16px;
+    margin-top: 80px;
+    padding: 10px;
+    border: none;
+}
+
+.add-survey:hover {
+    background-color: rgb(154, 191, 133);
+}
+
+.add-survey:active {
+    background-color: rgb(127, 149, 94);
+}
