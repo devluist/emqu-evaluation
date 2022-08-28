@@ -130,13 +130,13 @@ export function Survey(props) {
         </div>
 
         <div>
-            <label htmlFor="gender">Selecciona genero con que te identificas</label>
+            <label htmlFor="gender">Selecciona género con que te identificas</label>
             { errors.gender && <label className="error" htmlFor="gender">Debe verificar su selección</label> }
             <select name="gender" onChange={e => updateStateData(e.target)} value={surveyData.gender}>
                 <option>Seleccione...</option>
-                <option value="Male">Male</option>
-                <option value="Female">Female</option>
-                <option value="Other">Other</option>
+                <option value="Male">Másculino</option>
+                <option value="Female">Femenino</option>
+                <option value="Other">Otros</option>
             </select>
         </div>
 

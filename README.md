@@ -23,9 +23,8 @@ La documentación del API esta aquí:
 `cd api`
 
 `pip install -r requirements.txt`
-`pip install "fastapi[all]"`
 
-luego de instalar correr el proyecto con
+Luego de instalar, correr el proyecto con
 `uvicorn main:app --reload`
 
 
